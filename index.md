@@ -24,14 +24,14 @@ In specific, we use three factors to describe a dataflow, which are parallelism,
 #### Example
 A simple 1-D convolution and its loop expression is shown in Fig. 1a. The loop shown in Fig. 1b is time-consuming as it only performs one multiplication and one add operation at each time step. If we apply the parallelism to this 1-D conv by unrolling the loop and use three processing elements to perform the computation task simultaneously, the 1-D conv will be performed like it is shown in Fig. 1c. 
 
-<img src="images\conv.png" width="600" title="Figure 1. The computation process and loop expression of 1-D conv.">
+<div align=center><img src="images\1-D_conv_parallel.png" width="600" title="Figure 1. The computation process and loop expression of 1-D conv."></div>
 
 Then for the affect of computation order, it is illustrated in Fig. 2. Stationary means the corresponding data stay the longest in accelerator’s buffer. As it is shown in Fig. 2, tmp refers to one data in accelerator’s buffer and different computation order may result in different number of memory access for each tensor. 
 
-<img src="images\stationary.png" width="600" title="Figure 2. Different computation orders for 1-D conv.">
+<div align=center><img src="images\1-D_conv_stationary.png" width="600" title="Figure 2. Different computation orders for 1-D conv."></div>
 
 As it is shown in Fig. 3, DNN accelerators have a multi-level memory hierarchy and limited size of buffer. Therefore, the data used in DNN applications may need to be partitioned before it has been transferred into the DNN accelerators and perform the computation.
 
-<img src="images\memory.png" width="400" title="Figure 3. Output partition example for 1-D conv.">
+<div align=center><img src="images\1-D_conv_partition.png" width="400" title="Figure 3. Output partition example for 1-D conv."></div>
 
 
