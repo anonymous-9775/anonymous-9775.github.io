@@ -20,18 +20,16 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 </div>
 
 <br>
-<br>
 
 <div>
     <center>	
     <img src="images/multi_PE.png"
-         style="zoom:80%"/>
+         style="zoom:30%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
 
-<br>
 <br>
 
 <div>
@@ -44,32 +42,29 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 </div>
 
 <br>
-<br>
 
 #### Single objective optimization (Latency)
 
 <div>
     <center>	
     <img src="images/runtime_change.png"
-         style="zoom:50%"/>
+         style="zoom:20%"/>
     <br>
     The change of latency along with the propagation epoch.
     </center>
 </div>
 
 <br>
-<br>
 
 <div>
     <center>	
     <img src="images/runtime_PE.png"
-         style="zoom:80%"/>
+         style="zoom:20%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
 
-<br>
 <br>
 
 <div>
@@ -82,32 +77,29 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 </div>
 
 <br>
-<br>
 
 #### Single objective optimization (Energy)
 
 <div>
     <center>	
     <img src="images/energy_change.png"
-         style="zoom:50%"/>
+         style="zoom:10%"/>
     <br>
     The change of energy along with the propagation epoch.
     </center>
 </div>
 
 <br>
-<br>
 
 <div>
     <center>	
     <img src="images/energy_PE.png"
-         style="zoom:80%"/>
+         style="zoom:10%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
 
-<br>
 <br>
 
 <div>
@@ -120,32 +112,29 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 </div>
 
 <br>
-<br>
 
 #### Single objective optimization (EDP)
 
 <div>
     <center>	
     <img src="images/edp_change.png"
-         style="zoom:50%"/>
+         style="zoom:5%"/>
     <br>
     The change of EDP along with the propagation epoch.
     </center>
 </div>
 
 <br>
-<br>
 
 <div>
     <center>	
     <img src="images/edp_PE.png"
-         style="zoom:80%"/>
+         style="zoom:5%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
 
-<br>
 <br>
 
 <div>
