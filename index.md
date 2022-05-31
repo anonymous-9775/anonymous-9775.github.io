@@ -10,9 +10,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 
 #### Multiple objectives optimization (Latency and Energy)
 
-<div align=center><img src="images/multi_latency_energy.png" title="The change of latency and energy in multiple objectives optimization. The arrow indicates the evolution of the performance of propagated dataflow in each step." width="50%"></div>
+<div align=center><img src="images/multi_latency_energy.png" title="The change of latency and energy in multiple objectives optimization. The arrow indicates the evolution of the performance of propagated dataflow in each step." width="80%"></div>
 
-<div align=center><img src="images/multi_pe.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
+<div align=center><img src="images/multi_PE.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
 
 <div align=center><img src="images/multi_memory.png" title="The change of memory size along with propagation epoch. The total on-chip buffer indicates the sum of L2, L1, and L0 buffer."></div>
 
@@ -21,7 +21,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 
 <div align=center><img src="images/runtime_change.png" title="The change of latency along with the propagation epoch." width="40%"></div>
 
-<div align=center><img src="images/runtime_pe.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"</div>
+<div align=center><img src="images/runtime_PE.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
 
 <div align=center><img src="images/runtime_memory.png" title="The change of memory size along with propagation epoch. The total on-chip buffer indicates the sum of L2, L1, and L0 buffer."></div>
 
@@ -30,7 +30,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 
 <div align=center><img src="images/energy_change.png" title="The change of energy along with the propagation epoch." width="40%"></div>
 
-<div align=center><img src="images/energy_pe.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
+<div align=center><img src="images/energy_PE.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
 
 <div align=center><img src="images/energy_memory.png" title="The change of memory size along with propagation epoch. The total on-chip buffer indicates the sum of L2, L1, and L0 buffer."></div>
 
@@ -39,7 +39,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 
 <div align=center><img src="images/edp_change.png" title="The change of EDP along with the propagation epoch." width="40%"></div>
 
-<div align=center><img src="images/edp_pe.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
+<div align=center><img src="images/edp_PE.png" title="The change in the number of PEs contained in one L2, L1, and L0 buffer cluster." width="80"></div>
 
 <div align=center><img src="images/edp_memory.png" title="The change of memory size along with propagation epoch. The total on-chip buffer indicates the sum of L2, L1, and L0 buffer."></div>
 
