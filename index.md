@@ -24,7 +24,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/multi_PE.png"
-         style="zoom:30%"/>
+         style="zoom:20%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
@@ -48,7 +48,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/runtime_change.png"
-         style="zoom:20%"/>
+         style="zoom:15%"/>
     <br>
     The change of latency along with the propagation epoch.
     </center>
@@ -83,7 +83,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/energy_change.png"
-         style="zoom:10%"/>
+         style="zoom:15%"/>
     <br>
     The change of energy along with the propagation epoch.
     </center>
@@ -94,7 +94,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/energy_PE.png"
-         style="zoom:10%"/>
+         style="zoom:20%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
@@ -118,7 +118,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/edp_change.png"
-         style="zoom:5%"/>
+         style="zoom:15%"/>
     <br>
     The change of EDP along with the propagation epoch.
     </center>
@@ -129,7 +129,7 @@ In this part, we visualize the dataflow propagation process of DCP for the first
 <div>
     <center>	
     <img src="images/edp_PE.png"
-         style="zoom:5%"/>
+         style="zoom:20%"/>
     <br>
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
