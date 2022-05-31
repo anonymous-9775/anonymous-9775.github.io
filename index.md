@@ -15,9 +15,12 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     <img src="images/multi_latency_energy.png"
          style="zoom:80%"/>
     <br>
-    The change of latency and energy in multiple objectives optimization. The arrow indicates the evolution of the performance of propagated dataflow in each step.
+    The change of latency and energy in multiple objectives optimization. The arrow indicates the evolution of the performance of propagated dataflow in each step. The star labels the performance of the final optimized dataflow.
     </center>
 </div>
+
+<br>
+<br>
 
 <div>
     <center>	
@@ -28,6 +31,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
+
 <div>
     <center>	
     <img src="images/multi_memory.png"
@@ -37,6 +43,8 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
 
 #### Single objective optimization (Latency)
 
@@ -49,6 +57,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
+
 <div>
     <center>	
     <img src="images/runtime_PE.png"
@@ -57,6 +68,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
+
+<br>
+<br>
 
 <div>
     <center>	
@@ -67,6 +81,8 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
 
 #### Single objective optimization (Energy)
 
@@ -79,6 +95,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
+
 <div>
     <center>	
     <img src="images/energy_PE.png"
@@ -87,6 +106,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
+
+<br>
+<br>
 
 <div>
     <center>	
@@ -97,6 +119,8 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
 
 #### Single objective optimization (EDP)
 
@@ -109,6 +133,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     </center>
 </div>
 
+<br>
+<br>
+
 <div>
     <center>	
     <img src="images/edp_PE.png"
@@ -117,6 +144,9 @@ In this part, we visualize the dataflow propagation process of DCP for the first
     The change in the number of PEs contained in one L2, L1, and L0 buffer cluster.
     </center>
 </div>
+
+<br>
+<br>
 
 <div>
     <center>	
